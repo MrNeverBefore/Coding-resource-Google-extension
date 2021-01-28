@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rs Resources",
+  "description": "Quick launch Coding Resources",
+  "version": "1.0.0",
+  "icons": { "128": "rs_128.png" },
+  "browser_action": {
+    "default_icon": "rs-icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
